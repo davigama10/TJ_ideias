@@ -1,0 +1,23 @@
+.div1 {
+    display: flex;
+}
+
+.scrollable {
+    overflow: auto;
+    width: 100px;
+    height: 150px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+.scrollableSorteio {
+    overflow: auto;
+    width: 180px;
+    height: 150px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  
