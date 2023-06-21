@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(184, 166, 255);
+}
+
 .div1 {
     display: flex;
 }
