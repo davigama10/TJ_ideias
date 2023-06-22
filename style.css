@@ -1,5 +1,6 @@
 body {
   background-color: rgb(184, 166, 255);
+  font-family: 'Courier New', monospace;
 }
 
 .div1 {
@@ -8,7 +9,7 @@ body {
 
 .scrollable {
     overflow: auto;
-    width: 100px;
+    width: 125px;
     height: 150px;
     border: 1px solid #ccc;
     padding: 10px;
@@ -17,7 +18,7 @@ body {
 
 .scrollableSorteio {
     overflow: auto;
-    width: 180px;
+    width: 230px;
     height: 150px;
     border: 1px solid #ccc;
     padding: 10px;

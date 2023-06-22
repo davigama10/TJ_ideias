@@ -67,11 +67,10 @@ function utilizarGrupoSelecionado() {
 }
 
 function sortearUnidadeParaSemana(grupo) {
-    let semanaIndex = Math.floor(Math.random() * grupo.semanasSorteio.length);
     let unidadeIndex = Math.floor(Math.random() * grupo.unidadesSorteio.length);
-    let semana = grupo.semanasSorteio[semanaIndex];
+    let semana = grupo.semanasSorteio[0];
     let unidade = grupo.unidadesSorteio[unidadeIndex];
-    grupo.semanasSorteio.splice(semanaIndex, 1);
+    grupo.semanasSorteio.splice(0, 1);
     grupo.unidadesSorteio.splice(unidadeIndex, 1);
     let sorteioItem = semana + " - " + unidade;
     grupo.sorteio.push(sorteioItem);
